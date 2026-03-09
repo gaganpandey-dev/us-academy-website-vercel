@@ -5,7 +5,7 @@ export default function Home() {
       {/* TOP INFO BAR */}
       <div className="bg-linear-to-r from-blue-600 to-indigo-700 text-white px-6 py-3 text-sm hidden md:flex items-center justify-between">
         <div className="flex items-center space-x-4">
-          <span>🎓 US Academy – K–12 School</span>
+          <span>🎓 US Academy – K–10 School</span>
           <span>📞 9415382424 | 8787023932 | 6306471744</span>
         </div>
         <span className="font-semibold">Admissions Open 2026–27</span>
@@ -18,9 +18,9 @@ export default function Home() {
   <div
     className="absolute inset-0 bg-center bg-no-repeat bg-contain pointer-events-none"
     style={{
-      backgroundImage: "url('/images/logo.png')",
+      backgroundImage: "url('/images/School.jpeg')",
       opacity: 0.8,
-      backgroundSize: "70%",
+      backgroundSize: "110%",
       filter: "grayscale(100%) contrast(120%)",
     }}
   />
@@ -62,7 +62,7 @@ export default function Home() {
       <section className="py-24 bg-white/60 backdrop-blur-md">
         <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-4 gap-8 text-center">
           {[
-            ["K–12", "Complete Schooling", "text-blue-600"],
+            ["K–10", "Complete Schooling", "text-blue-600"],
             ["Experienced", "Faculty", "text-indigo-600"],
             ["Safe", "Campus", "text-green-600"],
             ["Holistic", "Development", "text-purple-600"],

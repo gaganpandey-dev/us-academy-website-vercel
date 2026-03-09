@@ -15,7 +15,7 @@ export default function About() {
         {/* HEADER */}
         <div className="text-center mb-24">
           <span className="inline-block px-6 py-2 bg-blue-600 text-white text-sm font-semibold rounded-full mb-6">
-            K–12 School • Excellence in Education
+            K–10 School • Excellence in Education
           </span>
 
           <h1 className="text-5xl md:text-6xl font-extrabold text-gray-900 mb-6">
@@ -23,7 +23,7 @@ export default function About() {
           </h1>
 
           <p className="text-xl text-gray-700 max-w-3xl mx-auto leading-relaxed">
-            US Academy is a K–12 institution committed to academic excellence,
+            US Academy is a K–10 institution committed to academic excellence,
             strong values, and holistic development in a disciplined and nurturing environment.
           </p>
         </div>
@@ -55,7 +55,7 @@ export default function About() {
             <div className="space-y-5">
               {[
                 ["Foundation", "Established with a vision for quality education"],
-                ["Growth", "Expanded into a full K–12 academic institution"],
+                ["Growth", "Expanded into a full K–10 academic institution"],
                 ["Today", "Recognized for discipline, results, and holistic growth"],
               ].map(([title, desc]) => (
                 <div key={title} className="flex items-start gap-4">
@@ -73,7 +73,7 @@ export default function About() {
         {/* STATS */}
         <div className="grid md:grid-cols-4 gap-8 mb-24 text-center">
           {[
-            ["K–12", "Complete Schooling"],
+            ["K–10", "Complete Schooling"],
             ["Experienced", "Dedicated Faculty"],
             ["Safe", "Campus Environment"],
             ["Holistic", "Student Development"],
