@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { FaYoutube, FaInstagram, FaFacebookF } from "react-icons/fa";
 
 export default function Footer() {
   return (
@@ -53,11 +54,9 @@ export default function Footer() {
           <h3 className="font-bold text-lg mb-4">Contact Us</h3>
           <div className="text-blue-100 space-y-2">
             <p>📍 Village Tenuhari (Shukla), Sahjanwa, Gorakhpur</p>
-
             <p>📞 9415382424</p>
             <p>📞 6306471744</p>
             <p>📞 8787023932</p>
-
             <p className="pt-2">✉️ usacademytenuhari504@gmail.com</p>
           </div>
         </div>
@@ -71,30 +70,33 @@ export default function Footer() {
             events, and student activities.
           </p>
 
-          <div className="flex gap-4 text-sm">
+          <div className="flex gap-4">
 
+            {/* YouTube */}
             <a
               href="http://www.youtube.com/@u.s.academytenuhari3882"
               target="_blank"
-              className="bg-red-600 px-3 py-2 rounded hover:bg-red-700 transition"
+              className="bg-red-600 hover:bg-red-700 p-3 rounded-full shadow-lg transition transform hover:scale-110"
             >
-              YouTube
+              <FaYoutube size={18} />
             </a>
 
+            {/* Instagram */}
             <a
               href="https://www.instagram.com/tenuhari?igsh=OHRzcjAzdnNyajBw"
               target="_blank"
-              className="bg-pink-500 px-3 py-2 rounded hover:bg-pink-600 transition"
+              className="bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 p-3 rounded-full shadow-lg transition transform hover:scale-110"
             >
-              Instagram
+              <FaInstagram size={18} />
             </a>
 
+            {/* Facebook */}
             <a
               href="https://www.facebook.com/share/1Aiuy7jAHk/"
               target="_blank"
-              className="bg-blue-600 px-3 py-2 rounded hover:bg-blue-700 transition"
+              className="bg-blue-600 hover:bg-blue-700 p-3 rounded-full shadow-lg transition transform hover:scale-110"
             >
-              Facebook
+              <FaFacebookF size={18} />
             </a>
 
           </div>

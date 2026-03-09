@@ -3,28 +3,28 @@ import Link from "next/link";
 
 export default function Hero() {
   return (
-    <section className="relative min-h-[85vh] flex items-center justify-center overflow-hidden">
+    <section className="relative h-screen w-full flex items-center justify-center overflow-hidden">
 
       {/* Background Image */}
-        <Image
-        src="public/images/School.jpeg"
+      <Image
+        src="/images/School.jpeg"
         alt="US Academy School"
         fill
         priority
-        className="object-cover object-center opacity-40"
+        className="object-cover object-center"
       />
 
-      {/* Gradient Overlay */}
-      <div className="absolute inset-0 bg-gradient-to-r from-blue-900/80 via-blue-700/70 to-blue-900/80"></div>
+      {/* Dark Overlay */}
+      <div className="absolute inset-0 bg-black/50"></div>
 
       {/* Content */}
-      <div className="relative z-10 text-center text-white px-6 max-w-4xl mx-auto">
+      <div className="relative z-10 text-center text-white px-4 sm:px-6 max-w-5xl">
 
-        <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-4 leading-tight">
+        <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold mb-4 leading-tight">
           Welcome to <span className="text-yellow-400">US Academy</span>
         </h1>
 
-        <p className="text-base sm:text-lg mb-8 text-gray-200">
+        <p className="text-sm sm:text-base md:text-lg mb-8 text-gray-200 max-w-2xl mx-auto">
           Where education meets discipline, innovation, and holistic
           development.
         </p>
@@ -52,23 +52,23 @@ export default function Hero() {
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
 
           <div>
-            <h3 className="text-2xl md:text-3xl font-bold">1000+</h3>
-            <p className="text-sm text-gray-200">Students</p>
+            <h3 className="text-xl md:text-3xl font-bold">1000+</h3>
+            <p className="text-xs md:text-sm text-gray-200">Students</p>
           </div>
 
           <div>
-            <h3 className="text-2xl md:text-3xl font-bold">20</h3>
-            <p className="text-sm text-gray-200">Teachers</p>
+            <h3 className="text-xl md:text-3xl font-bold">20</h3>
+            <p className="text-xs md:text-sm text-gray-200">Teachers</p>
           </div>
 
           <div>
-            <h3 className="text-2xl md:text-3xl font-bold">98%</h3>
-            <p className="text-sm text-gray-200">Results</p>
+            <h3 className="text-xl md:text-3xl font-bold">98%</h3>
+            <p className="text-xs md:text-sm text-gray-200">Results</p>
           </div>
 
           <div>
-            <h3 className="text-2xl md:text-3xl font-bold">2026</h3>
-            <p className="text-sm text-gray-200">Established</p>
+            <h3 className="text-xl md:text-3xl font-bold">2026</h3>
+            <p className="text-xs md:text-sm text-gray-200">Established</p>
           </div>
 
         </div>
