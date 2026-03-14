@@ -83,7 +83,7 @@ export default function Footer() {
 
             {/* Instagram */}
             <a
-              href="https://www.instagram.com/tenuhari?igsh=OHRzcjAzdnNyajBw"
+              href="https://www.instagram.com/tenuhari"
               target="_blank"
               className="bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 p-3 rounded-full shadow-lg transition transform hover:scale-110"
             >
@@ -105,13 +105,18 @@ export default function Footer() {
       </div>
 
       {/* BOTTOM BAR */}
-      <div className="bg-blue-900 text-center py-4 text-xs text-blue-100">
-        © 2026 US Academy. All Rights Reserved. <br />
-        Developed by{" "}
-        <span className="font-semibold tracking-wide text-white">
-          GAGAN
-        </span>
-      </div>
+    <div className="bg-blue-900 text-center py-4 text-xs text-blue-100">
+  © 2026 US Academy. All Rights Reserved. <br />
+  Developed by{" "}
+  <a
+    href="https://www.linkedin.com/in/gagan-pandey-84296722a/"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="font-semibold tracking-wide text-white hover:underline"
+  >
+    GAGAN
+  </a>
+</div>
     </footer>
   );
 }

@@ -3,7 +3,6 @@
 import { useState } from "react";
 
 export default function EnquiryForm() {
-
   const [formData, setFormData] = useState({
     name: "",
     phone: "",
@@ -54,7 +53,7 @@ Message: ${formData.message}
             required
             onChange={handleChange}
             placeholder="Enter full name"
-            className="w-full px-4 py-3 rounded-lg border border-gray-400 focus:ring-2 focus:ring-blue-500"
+            className="w-full px-4 py-3 rounded-lg border border-gray-400 focus:ring-2 focus:ring-blue-500 text-gray-900"
           />
         </div>
 
@@ -70,7 +69,7 @@ Message: ${formData.message}
             required
             onChange={handleChange}
             placeholder="+91 XXXXX XXXXX"
-            className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-500"
+            className="w-full px-4 py-3 rounded-lg border border-gray-400 focus:ring-2 focus:ring-blue-500 text-gray-900"
           />
         </div>
 
@@ -84,7 +83,7 @@ Message: ${formData.message}
             name="class"
             onChange={handleChange}
             required
-            className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-500"
+            className="w-full px-4 py-3 rounded-lg border border-gray-400 focus:ring-2 focus:ring-blue-500 text-gray-900"
           >
             <option value="">Select Class</option>
             <option>Nursery</option>
@@ -106,7 +105,7 @@ Message: ${formData.message}
             name="message"
             onChange={handleChange}
             placeholder="Any specific query?"
-            className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-500"
+            className="w-full px-4 py-3 rounded-lg border border-gray-400 focus:ring-2 focus:ring-blue-500 text-gray-900"
           />
         </div>
 
@@ -119,7 +118,6 @@ Message: ${formData.message}
         </button>
 
       </form>
-
     </div>
   );
 }
